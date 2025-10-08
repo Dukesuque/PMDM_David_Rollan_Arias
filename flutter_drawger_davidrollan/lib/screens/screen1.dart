@@ -1,5 +1,5 @@
 // ========================================
-// 📁 lib/screens/screen1.dart
+//lib/screens/screen1.dart
 // ========================================
 import 'package:flutter/material.dart';
 import '../componets/mi_drawer.dart';
