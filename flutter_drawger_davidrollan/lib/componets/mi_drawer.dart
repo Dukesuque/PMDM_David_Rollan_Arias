@@ -4,6 +4,8 @@ import '../screens/screen2.dart';
 import '../screens/screen3.dart';
 import '../screens/screen4.dart';
 import '../screens/screen5.dart';
+import '../screens/screen6.dart';
+import '../screens/screen7.dart';
 
 class MiDrawer extends StatelessWidget {
   @override
@@ -44,6 +46,18 @@ class MiDrawer extends StatelessWidget {
               title: Text('Imagenes', style: TextStyle(color: Colors.white)),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (c) => Screen5()));
+              },
+            ),
+            ListTile(
+              title: Text('Textos', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen6()));
+              },
+            ),
+            ListTile(
+              title: Text('Imagenes Rep', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen7()));
               },
             ),
           ],

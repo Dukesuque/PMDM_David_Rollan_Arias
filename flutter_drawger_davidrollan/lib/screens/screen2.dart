@@ -8,15 +8,15 @@ class Screen2 extends StatelessWidget {
       appBar: AppBar(title: Text('Foto'), backgroundColor: Colors.purple),
       drawer: MiDrawer(),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.person, size: 100, color: Colors.purple),
-            SizedBox(height: 20),
-            Text('David Rollan', style: TextStyle(fontSize: 24)),
-          ],
-        ),
-      ),
+  child: Column(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: [
+      Image.asset('assets/images/mifoto.jpg', width: 200, height: 200),
+      SizedBox(height: 20),
+      Text('David Rollan', style: TextStyle(fontSize: 24)),
+    ],
+  ),
+),
     );
   }
 }
