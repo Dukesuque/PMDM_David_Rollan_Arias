@@ -8,6 +8,9 @@ import '../screens/screen6.dart';
 import '../screens/screen7.dart';
 import '../screens/screen8.dart';
 import '../screens/screen9.dart';
+import '../screens/screen10.dart';
+import '../screens/screen11.dart';
+
 
 class MiDrawer extends StatelessWidget {
   @override
@@ -18,60 +21,111 @@ class MiDrawer extends StatelessWidget {
         child: ListView(
           children: [
             DrawerHeader(
-              child: Text('Menu', style: TextStyle(color: Colors.white, fontSize: 30)),
+              child: Text(
+                'Menu',
+                style: TextStyle(color: Colors.white, fontSize: 30),
+              ),
             ),
             ListTile(
               title: Text('Info', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen1()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen1()),
+                );
               },
             ),
             ListTile(
               title: Text('Foto', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen2()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen2()),
+                );
               },
             ),
             ListTile(
               title: Text('Miniaturas', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen3()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen3()),
+                );
               },
             ),
             ListTile(
               title: Text('Iconos', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen4()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen4()),
+                );
               },
             ),
             ListTile(
               title: Text('Imagenes', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen5()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen5()),
+                );
               },
             ),
             ListTile(
               title: Text('Textos', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen6()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen6()),
+                );
               },
             ),
             ListTile(
-              title: Text('Imagenes Rep', style: TextStyle(color: Colors.white)),
+              title: Text(
+                'Imagenes Rep',
+                style: TextStyle(color: Colors.white),
+              ),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen7()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen7()),
+                );
               },
             ),
             ListTile(
-              title: Text('Filas y Columnas', style: TextStyle(color: Colors.white)),
+              title: Text(
+                'Filas y Columnas',
+                style: TextStyle(color: Colors.white),
+              ),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen8()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen8()),
+                );
               },
             ),
             ListTile(
               title: Text('Challenge H', style: TextStyle(color: Colors.white)),
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen9()));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen9()),
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Contador', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (c) => Screen10()),
+                );
+              },
+            ),
+            ListTile(
+              title: Text('Instagram', style: TextStyle(color: Colors.white)),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (c) => Screen11()));
               },
             ),
           ],
